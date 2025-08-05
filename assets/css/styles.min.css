@@ -615,20 +615,66 @@ section {
 @media (min-width: 768px) {
   #foundation {
     font-size: 76px !important;
-    margin: 0 63px 0 176px !important;
+    margin: 0 0 0 176px !important;
   }
 
   .tagline {
     font-size: 21px !important;
-    margin: 11px 63px 0 0 !important;
+    margin: 0 !important;
   }
 
   .description {
     margin-left: auto !important;
-    margin-right: auto !important;
+    margin-right: 0 !important;
     max-width: 750px;
     text-align: center;
   }
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px !important;
+  }
+
+  p {
+    font-size: 18px !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-column h2 {
+    font-size: 24px !important;
+  }
+
+  .text-column p {
+    font-size: 16px !important;
+  }
+}
+
+.menu-section {
+  margin-left: 0; /* Default: no margin for mobile */
+}
+
+@media (min-width: 992px) {
+  .menu-section {
+    margin-left: 123px; /* Add margin on large screens and up */
+  }
+}
+
+.responsive-heading {
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .responsive-heading {
+    white-space: normal;
+  }
+}
+
+  @media (max-width: 767.98px) {
+    .mobile-center {
+      align-self: center;
+    }
+  }
 
