@@ -709,3 +709,54 @@ section {
     white-space: normal;
   }
 }
+
+@media (max-width: 768px) {
+  .card-img-overlay h4 {
+    font-size: 1.75rem !important;
+  }
+  .card-img-overlay p {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .source-ingredients-card .card-img-overlay h4,
+  .source-ingredients-card .card-img-overlay p {
+    text-align: center !important;
+  }
+}
+
+.fixed-size-card {
+  max-width: 414px;
+  max-height: 487px;
+  aspect-ratio: 414 / 487;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fixed-size-card > .card-img {
+  width: 100%;
+  height: 100%;
+  max-width: 414px;
+  max-height: 487px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fixed-size-card > .card-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.source-ingredients-card {
+  overflow: hidden;
+}
+
+.source-ingredients-card > .card-img {
+  transform: scale(1.2);
+  object-position: center top;
+}
+
