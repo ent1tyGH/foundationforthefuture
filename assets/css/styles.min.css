@@ -614,7 +614,7 @@ section {
 
 @media (min-width: 768px) {
   #foundation {
-    font-size: 76px !important;
+    font-size: 77px !important;
     margin: 0 0 0 176px !important;
   }
 
@@ -629,6 +629,15 @@ section {
     max-width: 750px;
     text-align: center;
   }
+}
+
+#page_header {
+    font-family: Marcellus, serif;
+    font-size: clamp(28px, 5vw, 77px);
+    font-weight: bold;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -759,4 +768,17 @@ section {
   transform: scale(1.2);
   object-position: center top;
 }
+
+@media (min-width: 992px) { /* lg breakpoint */
+    .lg-nowrap {
+        white-space: nowrap !important;
+    }
+    .breakout {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: max-content;
+    }
+}
+
 

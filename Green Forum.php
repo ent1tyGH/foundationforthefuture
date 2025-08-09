@@ -246,8 +246,8 @@ try {
                 <div
                     class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
                     <div>
-                        <h1 class="text-capitalize fw-light"
-                            style="font-family: Marcellus, serif;font-size: 80px;color: #f7efda;margin-bottom: 0px;">
+                        <h1 id="page_header" class="text-capitalize fw-light"
+                            style="color: #f7efda;">
                             Green Forum
                         </h1>
                         <p
