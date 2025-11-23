@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Abril Fatface';
-	src: url(/assets/fonts/Abril%20Fatface-a28d31c640e07b2605b602483118cc0c.woff2?h=ee9d314ace75ab9ac0c7d56d6603dd07) format('woff2');
+	src: url(../fonts/Abril%20Fatface-a28d31c640e07b2605b602483118cc0c.woff2?h=ee9d314ace75ab9ac0c7d56d6603dd07) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -9,21 +9,21 @@
 
 @font-face {
 	font-family: 'Abril Fatface';
-	src: url(/assets/fonts/Abril%20Fatface-445fab69b5cd60e2e6435122d88bdcf6.woff2?h=ee9d314ace75ab9ac0c7d56d6603dd07) format('woff2');
+	src: url(../fonts/Abril%20Fatface-445fab69b5cd60e2e6435122d88bdcf6.woff2?h=ee9d314ace75ab9ac0c7d56d6603dd07) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }@font-face {
 	font-family: 'Actor';
-	src: url(/assets/fonts/Actor-5831248588843b876ec16b53aabc7e23.woff2?h=a6ff67c2e5b9793d04f5e108a0d13868) format('woff2');
+	src: url(../fonts/Actor-5831248588843b876ec16b53aabc7e23.woff2?h=a6ff67c2e5b9793d04f5e108a0d13868) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }@font-face {
 	font-family: 'Baskervville SC';
-	src: url(/assets/fonts/Baskervville%20SC-c070cd848c7f6fe4905457e220196b47.woff2?h=e9b3a620dbc7d6e5b131a15c7f7f8387) format('woff2');
+	src: url(../fonts/Baskervville%20SC-c070cd848c7f6fe4905457e220196b47.woff2?h=e9b3a620dbc7d6e5b131a15c7f7f8387) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -32,21 +32,21 @@
 
 @font-face {
 	font-family: 'Baskervville SC';
-	src: url(/assets/fonts/Baskervville%20SC-feb61cb6fe0f5faba4216490a1a2b7b7.woff2?h=e9b3a620dbc7d6e5b131a15c7f7f8387) format('woff2');
+	src: url(../fonts/Baskervville%20SC-feb61cb6fe0f5faba4216490a1a2b7b7.woff2?h=e9b3a620dbc7d6e5b131a15c7f7f8387) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }@font-face {
 	font-family: 'Bigshot One';
-	src: url(/assets/fonts/Bigshot%20One-1b1b8a387cf71df9e99368dddbb252a6.woff2?h=0a45d6d9b48cd5cdc471d3dce2b074dd) format('woff2');
+	src: url(../fonts/Bigshot%20One-1b1b8a387cf71df9e99368dddbb252a6.woff2?h=0a45d6d9b48cd5cdc471d3dce2b074dd) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }@font-face {
 	font-family: 'Bodoni Moda';
-	src: url(/assets/fonts/Bodoni%20Moda-fb5058f2fc1f3b79787079b10c03bb08.woff2?h=398e009965b62836bb390fd7e4d763cb) format('woff2');
+	src: url(../fonts/Bodoni%20Moda-fb5058f2fc1f3b79787079b10c03bb08.woff2?h=398e009965b62836bb390fd7e4d763cb) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -55,7 +55,7 @@
 
 @font-face {
 	font-family: 'Bodoni Moda';
-	src: url(/assets/fonts/Bodoni%20Moda-2eb31acce6b09216b753728e9011a925.woff2?h=398e009965b62836bb390fd7e4d763cb) format('woff2');
+	src: url(../fonts/Bodoni%20Moda-2eb31acce6b09216b753728e9011a925.woff2?h=398e009965b62836bb390fd7e4d763cb) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -64,7 +64,7 @@
 
 @font-face {
 	font-family: 'Bodoni Moda';
-	src: url(/assets/fonts/Bodoni%20Moda-4c5834f4501c8b5c4667f22a6d22c8c0.woff2?h=398e009965b62836bb390fd7e4d763cb) format('woff2');
+	src: url(../fonts/Bodoni%20Moda-4c5834f4501c8b5c4667f22a6d22c8c0.woff2?h=398e009965b62836bb390fd7e4d763cb) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -73,14 +73,14 @@
 
 @font-face {
 	font-family: 'Bodoni Moda';
-	src: url(/assets/fonts/Bodoni%20Moda-33dc776cb1a45a0a49e6242e569f1659.woff2?h=398e009965b62836bb390fd7e4d763cb) format('woff2');
+	src: url(../fonts/Bodoni%20Moda-33dc776cb1a45a0a49e6242e569f1659.woff2?h=398e009965b62836bb390fd7e4d763cb) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }@font-face {
 	font-family: 'DM Sans';
-	src: url(/assets/fonts/DM%20Sans-bbe9ba1175a9439b8ba4d2b3c3f6d5ed.woff2?h=75c4c8ee4d4faa96995bfa069adb6d72) format('woff2');
+	src: url(../fonts/DM%20Sans-bbe9ba1175a9439b8ba4d2b3c3f6d5ed.woff2?h=75c4c8ee4d4faa96995bfa069adb6d72) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -89,14 +89,14 @@
 
 @font-face {
 	font-family: 'DM Sans';
-	src: url(/assets/fonts/DM%20Sans-aa96cf1c916336a6e1bef5fe32049d38.woff2?h=75c4c8ee4d4faa96995bfa069adb6d72) format('woff2');
+	src: url(../fonts/DM%20Sans-aa96cf1c916336a6e1bef5fe32049d38.woff2?h=75c4c8ee4d4faa96995bfa069adb6d72) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }@font-face {
 	font-family: 'Marcellus';
-	src: url(/assets/fonts/Marcellus-cd07e71edc6044f96293530f6737cb29.woff2?h=25a28568806efac042d33dedae290194) format('woff2');
+	src: url(../fonts/Marcellus-cd07e71edc6044f96293530f6737cb29.woff2?h=25a28568806efac042d33dedae290194) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -105,7 +105,7 @@
 
 @font-face {
 	font-family: 'Marcellus';
-	src: url(/assets/fonts/Marcellus-5995279a88dc296c2501dc2109993afc.woff2?h=25a28568806efac042d33dedae290194) format('woff2');
+	src: url(../fonts/Marcellus-5995279a88dc296c2501dc2109993afc.woff2?h=25a28568806efac042d33dedae290194) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -196,6 +196,11 @@
 
 .p-0 {
   padding: 0!important;
+}
+
+/* Global text alignment */
+body {
+    text-align: justify;
 }
 
 .p-4 {
@@ -804,19 +809,4 @@ footer.green {
 
 footer.pink {
   background: linear-gradient(var(--bs-light) 0%, rgba(239,172,165,0.88) 98%);
-}
-
-.logo-container {
-  width: 130px;
-  height: 130px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.logo-container img {
-  max-height: 100%;
-  max-width: 100%;
-  height: auto;
-  width: auto;
-  object-fit: contain;
 }

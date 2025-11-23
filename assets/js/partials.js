@@ -34,5 +34,7 @@ function setFooterGradientClass() {
   }
 }
 
-loadPartial("header", "header.html");
-loadPartial("footer", "footer.html");
+loadPartial("header", "/iteration1/header.html");
+loadPartial("footer", "/iteration1/footer.html");
+
+

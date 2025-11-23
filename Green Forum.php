@@ -135,7 +135,8 @@ try {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="icon" href="/assets/img/Asset%205.png" type="image/png">
+    <link rel="icon" href="assets/img/Asset%205.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/sticky-navbar.css">
     <style>
         /* Custom styles for the forum elements */
         .forum-post {
@@ -323,7 +324,7 @@ try {
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.min.js?h=e21329cc057f51c00970539ac9834d22"></script>
-    <script src="/assets/js/partials.js"></script>
+    <script src="assets/js/partials.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             // Function to format the date - not strictly used for new replies as PHP handles it initially
