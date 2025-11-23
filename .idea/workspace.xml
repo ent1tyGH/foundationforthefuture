@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b18cb8b-d6c8-45a0-a970-ec324205fc3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/About Us.html" beforeDir="false" afterPath="$PROJECT_DIR$/About Us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business.html" beforeDir="false" afterPath="$PROJECT_DIR$/Business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/Certifications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Green Forum.php" beforeDir="false" afterPath="$PROJECT_DIR$/Green Forum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/Partners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Ingredients.html" beforeDir="false" afterPath="$PROJECT_DIR$/Source Ingredients.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sustainability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/partials.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/partials.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="35rrt7edSDFlN8uMIlNV41yAw3o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/SCHOOL/Miki"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b18cb8b-d6c8-45a0-a970-ec324205fc3f" name="Changes" comment="" />
+      <created>1763879243179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763879243179</updated>
+    </task>
+    <servers />
+  </component>
+</project>
