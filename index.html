@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="en">
 <head>
-    <base href="Miki">
+    <base href="/iteration1/">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FoundationfortheFuture</title>
@@ -16,13 +16,25 @@
     <div id="header"></div>
 
     <section class="text-white" style="padding: 0px;">
-        <div class="container-fluid" style="padding-left: 0px;padding-right: 0px;width: 100%" id="header1">
-            <div class="border rounded-0 border-0 d-flex flex-column justify-content-center align-items-center position-relative" style="aspect-ratio: 16/9; min-height: 70vh; max-height: 100vh; width: 100%; overflow: hidden;">
-                <video autoplay loop muted playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
-                    <source src="assets/video/FFF Longform Video_V3.mp4" type="video/mp4" />
+        <div class="container-fluid" style="padding-left: 0px; padding-right: 0px; width: 100%" id="header1">
+            <div class="border rounded-0 border-0 d-flex flex-column justify-content-center align-items-center position-relative" style="min-height: 70vh; max-height: 100vh; width: 100%; overflow: hidden;">
+
+                <video autoplay loop muted playsinline
+                       style="
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            z-index: -1;
+                       ">
+                    <source src="assets/video/FFF Longform Video_V2.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
-                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.3); z-index: 0;"></div>
+
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(62, 132, 64, 0.6); z-index: 0;"></div>
+
                 <div class="row ms-0 me-0" style="position: relative; z-index: 1;">
                     <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center mx-auto">
                         <div class="text-end">
@@ -38,7 +50,7 @@
                             <p class="description text-center text-md-end px-3 px-md-0"
                                 style="font-family: 'DM Sans', sans-serif; background: transparent; margin-bottom: 9px; text-align: right; margin-right: 7.7%; margin-left: 7.7%; text-shadow: 0px 4px 7px var(--bs-emphasis-color);">
                                 Discover the evolving landscape of sustainability in the cosmetics industry and get inspired to create ethical, impactful brands. Made for the next-gen beauty leaders.
-                        </p>
+                            </p>
                             <div class="text-end text-md-end text-center">
                                 <a class="btn btn-light mx-md-0 mx-auto d-block d-md-inline-block" href="Projects.html" style="border-radius: 41px; width: fit-content; background-color: #f7efda;">Get Inspired to Create Change</a>
                             </div>
@@ -47,9 +59,10 @@
                 </div>
             </div>
         </div>
-        <div class="container pt-5 mb-0 pb-0" style="height: auto;">
+        
+        <div class="container py-5 my-5" style="height: auto;">
             <section style="padding-top: 0px;"></section>
-            <div class="row gy-4 gy-md-0">
+            <div class="row gy-4 gy-md-0 align-items-center">
                 <div class="col-md-6 col-xl-5 col-xxl-5 mt-0">
                     <img 
                         class="img-fluid rounded-5" 
@@ -57,17 +70,23 @@
                         src="assets/imgopt/WORK.jpg" 
                         alt="uy dalawang pogi">
                 </div>
-                <div class="col-md-6 col-xxl-7 d-flex d-md-flex align-items-start align-items-md-center" style="width: 4;">
-                    <div class="d-block align-items-center align-content-center" style="width: auto;text-align: justify;">
-                        <h2 class="text-lowercase fw-bold" style="width: auto;font-size: 32px;color: #566314;margin-left: 13px;text-align: justify;">your partner in creating an eco-friendly brand that’s genuine,&nbsp;purpose-driven, and poised to make an impact</h2>
-                        <p style="width: auto;color: rgb(0,0,0);font-family: 'DM Sans', sans-serif;margin-left: 12px;margin-top: 0px;text-align: justify;">See how sustainability is leading the way in reshaping&nbsp;the cosmetics industry and why choosing sustainable practices is&nbsp;crucial for building a brand that lasts.</p>
-                        <a class="btn btn-sm px-4 py-2" role="button" style="font-family: Marcellus, serif;border-radius: 41px;background: #566314;color: #f7efda;font-weight: bold;" href="Sustainability.html">Learn More</a>
+                <div class="col-md-6 col-xxl-7 d-flex d-md-flex align-items-center align-items-md-center" style="width: 4;">
+                    <div class="d-block align-items-center align-content-center text-center w-100">
+                        <h2 class="text-center text-lowercase fw-bold" style="width: auto; font-size: 32px; color: #566314; margin-left: 13px;">
+                            your partner in creating an eco-friendly brand that’s genuine,&nbsp;purpose-driven, and poised to make an impact
+                        </h2>
+                        <p class="text-center" style="width: auto; color: rgb(0,0,0); font-family: 'DM Sans', sans-serif; margin-left: 12px; margin-top: 0px;">
+                            See how sustainability is leading the way in reshaping&nbsp;the cosmetics industry and why choosing sustainable practices is&nbsp;crucial for building a brand that lasts.
+                        </p>
+                        <a class="btn btn-sm px-4 py-2 mt-2" role="button" style="font-family: Marcellus, serif; border-radius: 41px; background: #566314; color: #f7efda; font-weight: bold;" href="Sustainability.html">
+                            Learn More
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <section class="">
-        <!-- Heading Section -->
+
+        <section class="py-5 my-5">
         <div class="container">
             <div class="text-center px-4 py-5">
                 <h1 class="fw-bold mb-0" style="font-family: Marcellus, serif; color: var(--bs-dark); font-size: 61px;">
@@ -76,14 +95,12 @@
             </div>
         </div>
 
-        <!-- Two Column Section -->
         <div class="container rounded-5">
             <div class="bg-dark border rounded border-0 border-dark overflow-hidden">
             <div class="row g-0">
-                <!-- Text Content -->
                 <div class="col-md-6" style="background: #3e8440;">
                     <div class="text-white p-4 p-md-5 d-flex flex-column justify-content-between h-100">
-                        <p style="font-family: 'DM Sans', sans-serif; font-size: 1.8rem; font-style: italic; margin-bottom: 1rem;">
+                        <p class="text-start" style="font-family: 'DM Sans', sans-serif; font-size: 1.8rem; font-style: italic; margin-bottom: 1rem;">
                         At Foundation for the Future, we passionately advocate for sustainable cosmetics by collaborating with like-minded individuals to educate, encourage, and promote environmentally responsible practices.
                         </p>
                         <a class="btn btn-light mobile-center" href="About%20Us.html" style="background: #f7efda; font-family: Marcellus, serif; width: fit-content;">
@@ -92,7 +109,6 @@
                     </div>
                 </div>
 
-                <!-- Image Content -->
                 <div class="col-md-6 order-first order-md-last" style="min-height: 300px;">
                 <img class="object-fit-cover w-100 h-100" src="assets/imgopt/group2pic.jpg" alt="grabe ang popogi">
                 </div>
@@ -101,8 +117,7 @@
         </div>
         </section>
 
-        <!-- Carousel Section -->
-        <section class="py-5">
+        <section class="py-5 my-5">
             <div class="container">
                 <div id="sustainabilityCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                     <div class="carousel-indicators">
@@ -113,72 +128,73 @@
                         <button type="button" data-bs-target="#sustainabilityCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
                     </div>
                     <div class="carousel-inner">
-                        <!-- Slide 1 -->
                         <div class="carousel-item active" style="border-radius: 15px; overflow: hidden;">
-                            <div class="position-relative" style="background: linear-gradient(rgba(62, 132, 64, 0.8), rgba(62, 132, 64, 0.8)), url('assets/imgopt/WORK.jpg') center/cover no-repeat;">
+                            <div class="position-relative d-flex flex-column justify-content-center" style="min-height: 600px; background: linear-gradient(rgba(62, 132, 64, 0.8), rgba(62, 132, 64, 0.8)), url('assets/imgopt/When Good Intentions.jpg') center/cover no-repeat;">
                                 <div class="d-flex flex-column justify-content-center align-items-center text-center p-4 p-md-5 p-xl-6">
                                     <h2 style="font-family: Marcellus, serif; color: #f7efda; font-size: 2.5rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
-                                        Lorem Ipsum
+                                        When Good Intentions Go to Waste
                                     </h2>
                                     <p style="font-family: 'DM Sans', sans-serif; color: #f7efda; font-size: 1.1rem; max-width: 600px; line-height: 1.6; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); text-align: justify;">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        Ever joined a “green” campaign that sounded nice but changed nothing? This piece breaks down why some sustainability efforts flop, and what actually helps people stick to greener habits in real life.
                                     </p>
+                                    <a href="#" class="btn btn-outline-light mt-3 rounded-pill px-4">Read Article</a>
                                 </div>
                             </div>
                         </div>
                         
-                        <!-- Slide 2 -->
                         <div class="carousel-item" style="border-radius: 15px; overflow: hidden;">
-                            <div class="position-relative" style="background: linear-gradient(rgba(62, 132, 64, 0.8), rgba(62, 132, 64, 0.8)), url('assets/imgopt/WORK.jpg') center/cover no-repeat;">
+                            <div class="position-relative d-flex flex-column justify-content-center" style="min-height: 600px; background: linear-gradient(rgba(62, 132, 64, 0.8), rgba(62, 132, 64, 0.8)), url('assets/imgopt/Sustainability Everywhere.jpg') center/cover no-repeat;">
                                 <div class="d-flex flex-column justify-content-center align-items-center text-center p-4 p-md-5 p-xl-6">
                                     <h2 style="font-family: Marcellus, serif; color: #f7efda; font-size: 2.5rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
-                                        Lorem Ipsum
+                                        Sustainability Everywhere All at Once
                                     </h2>
                                     <p style="font-family: 'DM Sans', sans-serif; color: #f7efda; font-size: 1.1rem; max-width: 600px; line-height: 1.6; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); text-align: justify;">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        Curious why everyone is suddenly talking about refills and reusable bottles? This story takes you behind the scenes of beauty packaging and shows how brands are slowly shifting from “cute but wasteful” to “pretty and planet-friendly.”
+
                                     </p>
+                                    <a href="#" class="btn btn-outline-light mt-3 rounded-pill px-4">Read Article</a>
                                 </div>
                             </div>
                         </div>
                         
-                        <!-- Slide 3 -->
                         <div class="carousel-item" style="border-radius: 15px; overflow: hidden;">
-                            <div class="position-relative" style="background: linear-gradient(rgba(62, 132, 64, 0.8), rgba(62, 132, 64, 0.8)), url('assets/imgopt/WORK.jpg') center/cover no-repeat;">
+                            <div class="position-relative d-flex flex-column justify-content-center" style="min-height: 600px; background: linear-gradient(rgba(62, 132, 64, 0.8), rgba(62, 132, 64, 0.8)), url('assets/imgopt/Making Less Mess.jpg') center/cover no-repeat;">
                                 <div class="d-flex flex-column justify-content-center align-items-center text-center p-4 p-md-5 p-xl-6">
                                     <h2 style="font-family: Marcellus, serif; color: #f7efda; font-size: 2.5rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
-                                        Lorem Ipsum
+                                        Making Less Mess: Reducing Beauty’s Footprint
                                     </h2>
                                     <p style="font-family: 'DM Sans', sans-serif; color: #f7efda; font-size: 1.1rem; max-width: 600px; line-height: 1.6; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); text-align: justify;">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                       PFAS, or “forever chemicals,” hide in cookware, food packaging, and even your makeup bag. This article explains what they are, why they are risky for your health, and how you can start spotting them on labels without freaking out.​
                                     </p>
+                                    <a href="#" class="btn btn-outline-light mt-3 rounded-pill px-4">Read Article</a>
                                 </div>
                             </div>
                         </div>
                         
-                        <!-- Slide 4 -->
                         <div class="carousel-item" style="border-radius: 15px; overflow: hidden;">
-                            <div class="position-relative" style="background: linear-gradient(rgba(62, 132, 64, 0.8), rgba(62, 132, 64, 0.8)), url('assets/imgopt/certifications.jpg') center/cover no-repeat;">
+                            <div class="position-relative d-flex flex-column justify-content-center" style="min-height: 600px; background: linear-gradient(rgba(62, 132, 64, 0.8), rgba(62, 132, 64, 0.8)), url('assets/imgopt/Less Plastic More.jpg') center/cover no-repeat;">
                                 <div class="d-flex flex-column justify-content-center align-items-center text-center p-4 p-md-5 p-xl-6">
                                     <h2 style="font-family: Marcellus, serif; color: #f7efda; font-size: 2.5rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
-                                        Lorem Ipsum
+                                        Eco-friendly Packaging: Less Plastic, More Purpose
                                     </h2>
                                     <p style="font-family: 'DM Sans', sans-serif; color: #f7efda; font-size: 1.1rem; max-width: 600px; line-height: 1.6; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); text-align: justify;">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        Plastic bottles everywhere, but only a small portion really gets recycled. Here, you will see how brands are switching to glass, paper, refills, and other smart options, and why more shoppers now reach for products with planet-friendly packaging.​
                                     </p>
+                                    <a href="#" class="btn btn-outline-light mt-3 rounded-pill px-4">Read Article</a>
                                 </div>
                             </div>
                         </div>
                         
-                        <!-- Slide 5 -->
                         <div class="carousel-item" style="border-radius: 15px; overflow: hidden;">
-                            <div class="position-relative" style="background: linear-gradient(rgba(62, 132, 64, 0.8), rgba(62, 132, 64, 0.8)), url('assets/imgopt/WORK.jpg') center/cover no-repeat;">
+                            <div class="position-relative d-flex flex-column justify-content-center" style="min-height: 600px; background: linear-gradient(rgba(62, 132, 64, 0.8), rgba(62, 132, 64, 0.8)), url('assets/imgopt/Beauty That Gives.jpg') center/cover no-repeat;">
                                 <div class="d-flex flex-column justify-content-center align-items-center text-center p-4 p-md-5 p-xl-6">
                                     <h2 style="font-family: Marcellus, serif; color: #f7efda; font-size: 2.5rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
-                                        Lorem Ipsum
+                                        Beauty That Gives Back
                                     </h2>
                                     <p style="font-family: 'DM Sans', sans-serif; color: #f7efda; font-size: 1.1rem; max-width: 600px; line-height: 1.6; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); text-align: justify;">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        Filipinos grow up with bayanihan, community drives, and outreach events, so it makes sense to expect brands to give back too. This story shows how local companies are weaving small but real eco-actions into their daily operations, not just for PR but for the communities around them.​
                                     </p>
+                                    <a href="#" class="btn btn-outline-light mt-3 rounded-pill px-4">Read Article</a>
                                 </div>
                             </div>
                         </div>
@@ -195,9 +211,9 @@
             </div>
         </section>
 
-        <section class="text-white py-4 py-xl-5">
+        <section class="text-white py-5 my-5">
             <div class="container" style="height: 594px;">
-                <div class="border rounded border-0 d-flex flex-column justify-content-center align-items-center p-4 py-5" style="background: linear-gradient(rgb(247,239,218) 20%, rgba(247,239,218,0) 84%), url(&quot;assets/img/photo-1646553303957-c1ec32f932e7.jpg?h=ac355e92fbe425399088739c2f72434b&quot;);height: 543px;background-size: auto, cover;">
+                <div class="border rounded border-0 d-flex flex-column justify-content-center align-items-center p-4 py-5" style="background: linear-gradient(rgb(247,239,218) 20%, rgba(247,239,218,0) 84%), url('assets/img/photo-1646553303957-c1ec32f932e7.jpg?h=ac355e92fbe425399088739c2f72434b'); height: 543px; background-size: auto, cover;">
                     <div class="row">
                         <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center mx-auto">
                             <div>
@@ -221,9 +237,11 @@
         <div id="footer"></div>
 
         </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.min.js?h=e21329cc057f51c00970539ac9834d22"></script>
     <script src="assets/js/partials.js"></script>
+
     <script>
     function copyToClipboard(text) {
         navigator.clipboard.writeText(text)
@@ -231,5 +249,6 @@
             .catch(err => console.error('Failed to copy: ', err));
     }
     </script>
+
 </body>
 </html>
